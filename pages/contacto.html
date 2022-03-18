@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario Pais</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <header>
+    <div>
+        <ul><li><a href="/index.html">Inicio</a></li>
+        <li><a href="./deportes.html">Deportes</a></li>
+    <li><a href="./politica.html">Politica</a></li>
+<li><a href="./espectaculos.html">Espectaculos</a></li>
+<li><a href="./contacto.html">Contacto</a></li></ul>
+    </div>
+</header>
+<section> <!-- Formulario -->
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Registrar usuario</legend>
+        <div>
+          <label for="infoSexo">Sexo: </label
+          ><input
+            type="radio"
+            name="infoSexo"
+            id="infoSexo"
+            value="Masculino"
+            required
+          /> Masculino
+          <input
+            type="radio"
+            name="infoSexo"
+            id="infoSexo"
+            value="Femenino"
+            required
+          /> Femenino
+        </div>
+        <br>
+        <div>
+            <select name="estadoCivil" id="">
+                <option value="soltero">Soltero/a</option>
+                <option value="casado">Casado/a</option>
+            </select>
+        </div>
+        <br />
+        <div>
+          <label for="infoName" id="infoName">Nombre y apellido: </label
+          ><input
+            type="text"
+            name="infoName"
+            id="infoName"
+            placeholder="Nombre y apellido"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="infoEmail" id="infoEmail">Correo electronico: </label
+          ><input
+            type="email"
+            name="infoEmail"
+            id="infoEmail"
+            placeholder="Indique email"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="infoPassword" id="infoPassword">Contraseña: </label
+          ><input type="password" placeholder="Contraseña" required />
+        </div>
+        <br />
+        <div>
+        </div>
+        <br />
+        <div>
+          <label for="infoTerminos">Acepto terminos</label
+          ><input type="checkbox" value="1" required />
+        </div>
+        <br />
+        <div>
+          <label for="infoEnviar"></label
+          ><input type="submit" value="Enviar" />
+          <label for="infoResetear"></label
+          ><input type="reset" value="Limpiar" />
+        </div>
+        <br />
+      </fieldset>
+    </form>
+  </section>  
+  <br><br><br>
+<footer>Seguinos en nuestras redes sociales</footer>  
+</body>
+</html>
+
+
+
+
