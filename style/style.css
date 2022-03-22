@@ -7,10 +7,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-ul {
-  font-size: 0;
-}
-
 .menu {
   background: rgb(94, 90, 152);
   background: linear-gradient(
@@ -22,30 +18,15 @@ ul {
   width: 100vw;
 }
 
-.barra li {
-  display: inline-block;
-  width: 10%;
-  position: relative;
-}
-
-li {
-  margin: 25px;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .estilo {
   font-family: "Allison", sans-serif;
   font-weight: 900;
   font-size: xx-large;
-}
-
-#separacionBarra {
-  margin-left: 30%;
 }
 
 .imagen__portada {
