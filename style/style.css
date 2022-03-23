@@ -16,6 +16,7 @@
     rgba(76, 187, 210, 1) 57%
   );
   width: 100vw;
+  z-index: 1;
 }
 
 a{
@@ -55,11 +56,6 @@ footer {
   display: grid;
   grid-template-areas: "header" "main" "footer";
   grid-template-rows: 15% auto 15%;
-}
-
-.header {
-  grid-area: "header";
-  position: fixed;
 }
 
 .main {
@@ -104,6 +100,35 @@ body {
     #ffffff 99%,
     #ddd6f3 100%
   );
+}
+
+.imagenPagina{
+    padding: 3rem;
+    margin-top: 5rem;
+}
+.textoPagina{
+    margin-left: 25rem;
+    margin-top: 4rem;
+}
+
+.header {
+    grid-area: "header";
+    position: fixed;
+    overflow: hidden;
+  }
+
+.estructura{
+    margin-top: 8rem;
+}
+
+.bajoFoto{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.display{
+    position: relative;
+    z-index: 0;
 }
 
 @media only screen and (max-width: 480px) {
