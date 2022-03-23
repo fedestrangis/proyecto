@@ -16,7 +16,6 @@
     rgba(76, 187, 210, 1) 57%
   );
   width: 100vw;
-  z-index: 1;
 }
 
 a{
@@ -114,7 +113,7 @@ body {
 .header {
     grid-area: "header";
     position: fixed;
-    overflow: hidden;
+    z-index: 1;
   }
 
 .estructura{
