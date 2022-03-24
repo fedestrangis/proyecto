@@ -59,35 +59,12 @@ footer {
 
 .main {
   grid-area: "main";
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
-.noticias {
-  display: grid;
-  grid-template-areas: "imagen" "texto";
-  grid-template-columns: 35% 65%;
-  border: solid white 5px;
-}
-
-.imagenNoticia {
-  margin-top: 50px;
-  margin-left: 45px;
-  margin-bottom: 30px;
-  width: 300px;
-  height: 300px;
-  grid-area: "imagen";
-}
 .imagenNoticia:hover {
   transform: scale(1.3, 1.3);
   border: groove;
-}
-
-.texto {
-  grid-area: "texto";
-  display: flex;
-  align-items: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
 }
 
 body {
@@ -101,14 +78,6 @@ body {
   );
 }
 
-.imagenPagina{
-    padding: 3rem;
-    margin-top: 5rem;
-}
-.textoPagina{
-    margin-left: 25rem;
-    margin-top: 4rem;
-}
 
 .header {
     grid-area: "header";
@@ -116,19 +85,9 @@ body {
     z-index: 1;
   }
 
-.estructura{
-    margin-top: 8rem;
-}
-
-.bajoFoto{
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.display{
-    position: relative;
-    z-index: 0;
-}
+  .row{
+      margin-top: 6rem;
+  }
 
 @media only screen and (max-width: 480px) {
   #contenedor {
