@@ -29,32 +29,11 @@ nav{
     );
 }
 
-.imagen__portada {
-  margin-top: 60px;
-  margin-left: 45px;
-  width: 90%;
-  border: 1px solid;
-}
-
-.principal {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: xx-large;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-}
-
 footer {
   padding: 20px;
   margin-top: 30px;
   background-color: slategray;
   font-size: medium;
-}
-
-#contenedor {
-  display: grid;
-  grid-template-areas: "header" "main" "footer";
-  grid-template-rows: 15% auto 15%;
 }
 
 .main {
@@ -63,8 +42,8 @@ footer {
 }
 
 .imagenNoticia:hover {
-  transform: scale(1.3, 1.3);
-  border: groove;
+  transform: scale(1.1, 1.1);
+  border: solid 1px black;
 }
 
 body {
