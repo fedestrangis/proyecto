@@ -9,6 +9,9 @@ h1 {
 footer {
   font-size: medium; }
 
+a {
+  text-decoration: none; }
+
 body {
   background-color: #c0adad;
   background-image: linear-gradient(19deg, #c0adad 0%, #ffffff 98%, #ffffff 99%, #ddd6f3 100%); }
@@ -23,8 +26,30 @@ footer {
 a {
   color: black; }
 
-a {
-  text-decoration: none; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
 
 h1 {
   padding-right: 45rem; }
+
+footer {
+  padding: 20px;
+  margin-top: 30px; }
+
+main {
+  margin-top: 150px; }
+
+header {
+  position: fixed;
+  z-index: 10; }
+
+.row {
+  margin-top: 6rem; }
+
+.imagenNoticia:hover {
+  transform: scale(1.1, 1.1);
+  border: solid 1px black; }
