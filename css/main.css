@@ -1,7 +1,7 @@
 * {
   font-family: "Roboto", sans-serif; }
 
-h1 {
+h2 {
   font-family: "Allison", sans-serif;
   font-weight: 900;
   font-size: 50px; }
@@ -33,7 +33,7 @@ a {
   text-decoration: none;
   list-style: none; }
 
-h1 {
+h2 {
   padding-right: 45rem; }
 
 footer {
