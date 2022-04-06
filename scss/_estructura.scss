@@ -9,23 +9,23 @@ h2{
     padding-right: 45rem;
 }
 h1{
-    text-align: center;
+    text-align: $texto;
     margin-bottom: 4rem;
-    margin-top: 14rem;
+    @include margin(14rem)
 }
 footer {
     padding: 20px;
-    margin-top: 30px;
+    @include margin(30px)
 }
 main{
-    margin-top: 150px;
+    @include margin(150px)
 }
 header{
     position: fixed;
     z-index: 50;
 }
 .row{
-    margin-top: 6rem;
+    @include margin(6rem)
 }
 .logo{
     width: 200px;
@@ -36,12 +36,12 @@ header{
 }
 
 form{
-    margin-top: 12rem;
+    @include margin(12rem)
 }
 .btn-scale{
-    margin-top: 4rem;
+    @include margin(4rem);
     &:hover{
-        transform: scale(1.1);
+        transform: $scale;
     }
 }
 

@@ -74,5 +74,5 @@ form {
   border-radius: 10px; }
 
 .imagenNoticia:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.1);
   border: solid 1px black; }
