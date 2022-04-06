@@ -38,3 +38,14 @@ header{
 form{
     margin-top: 12rem;
 }
+.btn-scale{
+    margin-top: 4rem;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.btn-rounded{
+    @extend .btn-scale;
+    border-radius: 10px;
+}
