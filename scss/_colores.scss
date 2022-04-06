@@ -1,5 +1,13 @@
+$colores: (
+    'uno':#c0adad,
+    'dos':rgb(94, 90, 152),
+    'tres':slategray,
+    'cuatro':black,
+    'cinco':red,
+);
+
 body{
-    background-color: #c0adad;
+    background-color: map-get($map:$colores,$key:'uno');
     background-image: linear-gradient(
       19deg,
       #c0adad 0%,
@@ -9,7 +17,7 @@ body{
     );
 }
 nav{
-    background: rgb(94, 90, 152);
+    background: map-get($map:$colores,$key:'dos');
     background: linear-gradient(
       90deg,
       rgba(94, 90, 152, 1) 0%,
@@ -18,8 +26,8 @@ nav{
     );
 }
 footer{
-    background-color: slategray;
+    background-color: map-get($map:$colores,$key:'tres');
 }
 a{
-    color: black;
+    color: map-get($map:$colores,$key:'cuatro');
 }

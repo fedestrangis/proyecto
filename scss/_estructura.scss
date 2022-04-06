@@ -1,3 +1,6 @@
+@mixin margin($margin-top){
+    margin-top: $margin-top;
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,21 +14,21 @@ h2{
 h1{
     text-align: $texto;
     margin-bottom: 4rem;
-    @include margin(14rem)
+    @include margin(14rem);
 }
 footer {
     padding: 20px;
-    @include margin(30px)
+    @include margin(30px);
 }
 main{
-    @include margin(150px)
+    @include margin(150px);
 }
 header{
     position: fixed;
     z-index: 50;
 }
 .row{
-    @include margin(6rem)
+    @include margin(6rem);
 }
 .logo{
     width: 200px;
@@ -36,7 +39,7 @@ header{
 }
 
 form{
-    @include margin(12rem)
+    @include margin(12rem);
 }
 .btn-scale{
     @include margin(4rem);

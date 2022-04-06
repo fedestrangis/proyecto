@@ -85,9 +85,22 @@ form {
   margin-top: 12rem;
 }
 
+.btn-scale, .btn-rounded {
+  margin-top: 4rem;
+}
+
+.btn-scale:hover, .btn-rounded:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn-rounded {
+  border-radius: 10px;
+}
+
 .imagenNoticia:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   border: solid 1px black;
 }
 /*# sourceMappingURL=main.css.map */
