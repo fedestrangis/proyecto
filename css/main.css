@@ -82,3 +82,12 @@ form {
 .imagenNoticia:hover {
   transform: scale(1.1);
   border: solid 1px black; }
+
+.border {
+  border: 2px white; }
+
+.notiChica {
+  max-width: 300px; }
+
+.float {
+  padding-left: 3.1rem; }
