@@ -52,3 +52,7 @@ form{
     @extend .btn-scale;
     border-radius: 10px;
 }
+
+.bajoFoto{
+    @include margin(1rem);
+}
