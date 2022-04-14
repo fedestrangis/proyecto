@@ -1,125 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diario Pais</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../scss/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diario Pais</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../scss/main.css">
 </head>
+
 <body>
-  <div class="container-fluid"> 
-    <header>
+  <header>
+    <div class="container-fluid">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/Captura_de_pantalla_2022-04-04_222754-removebg-preview.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./deportes.html">Deportes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./politica.html">Politica</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./espectaculos.html">Espectaculos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+        <a class="navbar-brand" href="../index.html"><img class="logo"
+            src="../images/Captura_de_pantalla_2022-04-04_222754-removebg-preview.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./deportes.html">Deportes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./politica.html">Politica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./espectaculos.html">Espectaculos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </nav>
-</header>
-<main class="main">
-<section class="formulario"> <!-- Formulario -->
-    <form action="" method="GET">
-      <fieldset>
-        <legend>Registrar usuario</legend>
-        <div>
-          <label for="infoSexo">Sexo: </label
-          ><input
-            type="radio"
-            name="infoSexo"
-            id="infoSexo"
-            value="Masculino"
-            required
-          /> Masculino
-          <input
-            type="radio"
-            name="infoSexo"
-            id="infoSexo"
-            value="Femenino"
-            required
-          /> Femenino
-        </div>
-        
-        <div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="formulario">
+      <!-- Formulario -->
+      <form action="" method="GET">
+        <fieldset>
+          <legend>Registrar usuario</legend>
+          <div>
+            <label for="infoSexo">Sexo: </label><input type="radio" name="infoSexo" id="infoSexo" value="Masculino"
+              required /> Masculino
+            <input type="radio" name="infoSexo" id="infoSexo" value="Femenino" required /> Femenino
+          </div>
+
+          <div>
             <select name="estadoCivil" id="">
-                <option value="soltero">Soltero/a</option>
-                <option value="casado">Casado/a</option>
+              <option value="soltero">Soltero/a</option>
+              <option value="casado">Casado/a</option>
             </select>
-        </div>
-       
-        <div>
-          <label for="infoName" id="infoName">Nombre y apellido: </label
-          ><input
-            type="text"
-            name="infoName"
-            id="infoName"
-            placeholder="Nombre y apellido"
-            required
-          />
-        </div>
-        <br />
-        <div>
-          <label for="infoEmail" id="infoEmail">Correo electronico: </label
-          ><input
-            type="email"
-            name="infoEmail"
-            id="infoEmail"
-            placeholder="Indique email"
-            required
-          />
-        </div>
-      
-        <div>
-          <label for="infoPassword" id="infoPassword">Contraseña: </label
-          ><input type="password" placeholder="Contraseña" required />
-        </div>
-      
-        <div>
-        </div>
-       
-        <div>
-          <label for="infoTerminos">Acepto terminos</label
-          ><input type="checkbox" value="1" required />
-        </div>
-        
-        <div>
-          <label for="infoEnviar"></label
-          ><input type="submit" value="Enviar" />
-          <label for="infoResetear"></label
-          ><input type="reset" value="Limpiar" />
-        </div>
-      </fieldset>
-    </form>
-  </section>
+          </div>
+
+          <div>
+            <label for="infoName" id="infoName">Nombre y apellido: </label><input type="text" name="infoName"
+              id="infoName" placeholder="Nombre y apellido" required />
+          </div>
+          <br />
+          <div>
+            <label for="infoEmail" id="infoEmail">Correo electronico: </label><input type="email" name="infoEmail"
+              id="infoEmail" placeholder="Indique email" required />
+          </div>
+
+          <div>
+            <label for="infoPassword" id="infoPassword">Contraseña: </label><input type="password"
+              placeholder="Contraseña" required />
+          </div>
+
+          <div>
+          </div>
+
+          <div>
+            <label for="infoTerminos">Acepto terminos</label><input type="checkbox" value="1" required />
+          </div>
+
+          <div>
+            <label for="infoEnviar"></label><input type="submit" value="Enviar" />
+            <label for="infoResetear"></label><input type="reset" value="Limpiar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
   </main>
-<footer>Seguinos en nuestras redes sociales</footer>  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+  <footer>Seguinos en nuestras redes sociales</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
   </script>
 </body>
+
 </html>
-
-
-
-

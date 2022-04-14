@@ -1,81 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diario Deportivo</title>
-    <meta name="description" content="Diario digital, noticias sobre todos los deportes">
-    <meta name="keywords" content="DIARIO, DEPORTES, NOTICIAS, POLITICA, ESPECTACULO, DIGITAL">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Allison&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="../scss/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diario Deportivo</title>
+  <meta name="description" content="Diario digital, noticias sobre todos los deportes">
+  <meta name="keywords" content="DIARIO, DEPORTES, NOTICIAS, POLITICA, ESPECTACULO, DIGITAL">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../scss/main.css">
 </head>
+
 <body>
   <!--Barra de navegacion-->
-  <div class="container-fluid"> 
-    <header>
+  <header>
+    <div class="container-fluid">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/Captura_de_pantalla_2022-04-04_222754-removebg-preview.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./deportes.html">Deportes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./politica.html">Politica</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./espectaculos.html">Espectaculos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+        <a class="navbar-brand" href="../index.html"><img class="logo"
+            src="../images/Captura_de_pantalla_2022-04-04_222754-removebg-preview.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./deportes.html">Deportes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./politica.html">Politica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./espectaculos.html">Espectaculos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </nav>
-</header>
-<main class="main">
-  <h1>Diario El Pais</h1>
-  <!--Noticias principales-->
-<section class="estructura">
+    </div>
+  </header>
+  <main class="main">
+    <h1>Diario El Pais</h1>
+    <!--Noticias principales-->
+    <section class="estructura">
+      <div class="row">
+        <div class="col-md-5 border"><img class="img-thumbnail display" src="../images/superclasico1.jpg" alt="">
+          <p class="bajoFoto">Boca se quedo con una nueva edicion del superclasico</p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 border"><img class="img-thumbnail" src="../images/clasico2.jpg" alt="">
+          <p class="bajoFoto">Racing supero a Independiente de visitante por 2-1</p>
+        </div>
+      </div>
+    </section>
+    <section class="estructura">
+      <div class="row">
+        <div class="col-md-5 border"><img class="img-thumbnail" src="../images/seleccion.jpg" alt="">
+          <p class="bajoFoto">Messi llego al pais y se prepara para un nuevo encuentro de eliminatorias</p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 border"><img class="img-thumbnail" src="../images/rafa-nadal.jpg" alt="">
+          <p class="bajoFoto">Nadal es baja por 6 semanas por lesion</p>
+        </div>
+      </div>
+    </section>
+    <!--Noticias secundarias-->
     <div class="row">
-    <div class="col-md-5 border"><img class="img-thumbnail display" src="../images/superclasico1.jpg" alt=""><p class="bajoFoto">Boca se quedo con una nueva edicion del superclasico</p></div>
-    <div class="col-md-2"></div>
-    <div class="col-md-5 border"><img class="img-thumbnail" src="../images/clasico2.jpg" alt=""><p class="bajoFoto">Racing supero a Independiente de visitante por 2-1</p></div>
-</div></section>
-<section class="estructura">
-  <div class="row">
-    <div class="col-md-5 border"><img class="img-thumbnail" src="../images/seleccion.jpg" alt="">
-    <p class="bajoFoto">Messi llego al pais y se prepara para un nuevo encuentro de eliminatorias</p></div>
-    <div class="col-md-2"></div>
-    <div class="col-md-5 border"><img class="img-thumbnail" src="../images/rafa-nadal.jpg" alt=""><p class="bajoFoto">Nadal es baja por 6 semanas por lesion</p></div>
-  </div>
-</section>
-<!--Noticias secundarias-->
-<div class="row">
-<div class="col-md-4">
-  <img src="../images/boca.jpg" class="rounded float-start notiChica" alt="..."><a href="./deportes.html"><p>Boca arranco perdiendo en su debut por <br> Copa Libertadores.</p></a>
-</div>
-<div class="col-md-4">
-  <img src="../images/real.jpg" class="rounded mx-auto d-block notiChica" alt="..."><a href="./deportes.html"><p class="float">El Real Madrid se trajo una importante <br> victoria en su cruce por cuartos contra <br> Chelsea.</p></a>
-</div>
-<div class="col-md-4">
-  <img src="../images/villareal.jpg" class="rounded float-end notiChica" alt="..."><a href="./deportes.html"><p>Villareal dio el batacazo contra el Bayern <br> Munich en la ida de los cuartos de final de <br> la Champions League.</p></a>
-</div>
-</div>
-</main>
-    <footer>Seguinos en nuestras redes sociales</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+      <div class="col-md-4">
+        <img src="../images/boca.jpg" class="rounded float-start notiChica" alt="..."><a href="./deportes.html">
+          <p>Boca arranco perdiendo en su debut por <br> Copa Libertadores.</p>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <img src="../images/real.jpg" class="rounded mx-auto d-block notiChica" alt="..."><a href="./deportes.html">
+          <p class="float">El Real Madrid se trajo una importante <br> victoria en su cruce por cuartos contra <br>
+            Chelsea.</p>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <img src="../images/villareal.jpg" class="rounded float-end notiChica" alt="..."><a href="./deportes.html">
+          <p>Villareal dio el batacazo contra el Bayern <br> Munich en la ida de los cuartos de final de <br> la
+            Champions League.</p>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>Seguinos en nuestras redes sociales</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>

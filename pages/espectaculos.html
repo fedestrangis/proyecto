@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 < lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diario Espectaculos</title>
     <meta name="description" content="Diario digital, noticias sobre cine, series, farandula">
     <meta name="keywords" content="DIARIO, DEPORTES, NOTICIAS, POLITICA, ESPECTACULO, DIGITAL">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Allison&display=swap"
-      rel="stylesheet">
-      <link rel="stylesheet" href="../scss/main.css">
-</head>
-<body>
-  <!--Barra de navegacion-->
-  <div class="container-fluid"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/main.css">
+  </head>
+
+  <body>
+    <!--Barra de navegacion-->
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/Captura_de_pantalla_2022-04-04_222754-removebg-preview.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="../index.html"><img class="logo"
+              src="../images/Captura_de_pantalla_2022-04-04_222754-removebg-preview.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,44 +41,64 @@
               </li>
             </ul>
           </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <h1>Diario El Pais</h1>
+      <!--Noticias principales-->
+      <section class="estructura">
+        <div class="row">
+          <div class="col-md-5 border"><img class="img-thumbnail display" src="../images/bruce.jpg" alt="">
+            <p class="bajoFoto">Buce Willis se despide de la actuacion por un problema de salud.</p>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5 border"><img class="img-thumbnail" src="../images/paulo.jpg" alt="">
+            <p class="bajoFoto">Paulo Londra saca su segundo sencillo despues del juicio con Big Ligas.</p>
+          </div>
         </div>
-      </nav>
-</header>
-<main class="main">
-  <h1>Diario El Pais</h1>
-  <!--Noticias principales-->
-  <section class="estructura">
-    <div class="row">
-    <div class="col-md-5 border"><img class="img-thumbnail display" src="../images/bruce.jpg" alt=""><p class="bajoFoto">Buce Willis se despide de la actuacion por un problema de salud.</p></div>
-    <div class="col-md-2"></div>
-    <div class="col-md-5 border"><img class="img-thumbnail" src="../images/paulo.jpg" alt=""><p class="bajoFoto">Paulo Londra saca su segundo sencillo despues del juicio con Big Ligas.</p></div>
-</div></section>
-<section class="estructura">
-  <div class="row">
-    <div class="col-md-5 border"><img class="img-thumbnail" src="../images/masterchef.png" alt="">
-    <p class="bajoFoto">Conozca quien fue el ultimo eliminado antes de la gran final de Masterchef.</p></div>
-    <div class="col-md-2"></div>
-    <div class="col-md-5 border"><img class="img-thumbnail" src="../images/camilo.jpg" alt=""><p class="bajoFoto">Nacio Indigo, el hijo de Camilo y Evaluna Montaner</p></div>
-  </div>
-  <!--Noticias secundarias-->
-  <div class="row">
-    <div class="col-md-4">
-      <img src="../images/wanda.jpg" class="rounded float-start notiChica" alt="..."><a href="./espectaculos.html"><p>Los numeros de LAM en la entrevista a <br> Wanda Nara.</p></a>
-    </div>
-    <div class="col-md-4">
-      <img src="../images/granizo.jpg" class="rounded mx-auto d-block notiChica" alt="..."><a href="./espectaculos.html"><p class="float">La pelicula Granizo de Francella es lo mas <br> visto en Netflix Argentina y 22 paises mas.</p></a>
-    </div>
-    <div class="col-md-4">
-      <img src="../images/ph.jpg" class="rounded float-end notiChica" alt="..."><a href="./espectaculos.html"><p>Vuelve PH y estos son los primeros invitados.</p></a>
-    </div>
-    </div>
-</section>
-</main>
-        <footer>Seguinos en nuestras redes sociales</footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-          </script>
-</body>
-</html>
+      </section>
+      <section class="estructura">
+        <div class="row">
+          <div class="col-md-5 border"><img class="img-thumbnail" src="../images/masterchef.png" alt="">
+            <p class="bajoFoto">Conozca quien fue el ultimo eliminado antes de la gran final de Masterchef.</p>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5 border"><img class="img-thumbnail" src="../images/camilo.jpg" alt="">
+            <p class="bajoFoto">Nacio Indigo, el hijo de Camilo y Evaluna Montaner</p>
+          </div>
+        </div>
+        <!--Noticias secundarias-->
+        <div class="row">
+          <div class="col-md-4">
+            <img src="../images/wanda.jpg" class="rounded float-start notiChica" alt="..."><a
+              href="./espectaculos.html">
+              <p>Los numeros de LAM en la entrevista a <br> Wanda Nara.</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="../images/granizo.jpg" class="rounded mx-auto d-block notiChica" alt="..."><a
+              href="./espectaculos.html">
+              <p class="float">La pelicula Granizo de Francella es lo mas <br> visto en Netflix Argentina y 22 paises
+                mas.</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="../images/ph.jpg" class="rounded float-end notiChica" alt="..."><a href="./espectaculos.html">
+              <p>Vuelve PH y estos son los primeros invitados.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>Seguinos en nuestras redes sociales</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+  </html>
